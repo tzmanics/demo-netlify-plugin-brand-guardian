@@ -2,6 +2,6 @@
   command = "cp -r src/ dist"
   publish = "dist"
 [[plugins]]
-package = "../netlify-plugin-brand-guardian"
+package = "netlify-plugin-brand-guardian"
   [plugins.inputs]
   pathToWordList = "/wordList.json"
